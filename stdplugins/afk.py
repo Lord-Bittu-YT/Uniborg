@@ -109,7 +109,7 @@ async def on_afk(event):
         message_to_reply = f" 😎😎😎😎😎😎😎😎😎😎😎😎😎/ Lordbittu is offline now please wait fir his reply 🧡/ Join group :- @Lordclane" + \
             f"\n\n__Reason:__ {reason}" \
             if reason \
-            else f"Hello! This is an automated message. I am offline currently. Will reply soon. "
+            else f" 😎😎😎😎😎😎😎😎😎😎😎😎😎/ Lordbittu is offline now please wait fir his reply 🧡/ Join group :- @Lordclane"
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in borg.storage.last_afk_message:  # pylint:disable=E0602
